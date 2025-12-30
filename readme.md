@@ -4,6 +4,24 @@ This website allows users to add each other as friends and chat together.
 ## Installation and Setup
 Download the source code files, then download all the dependencies by running `npm i` in the project directory.
 
+Then, create a file named `.env` with the following keys:
+`
+# Server Configuration
+PORT: _port number_
+NODE_ENV: _development or production_
+
+# Database Configuration
+PGHOST: _Database host_
+PGPORT: _Database port_
+PGDATABASE: _Database name_
+PGUSER: _Database user name_
+PGPASSWORD: _Database user password_
+
+# Secret Key for User Authentication
+JWT_SECRET: _String_
+JWT_EXPIRES_IN = _Time (e.g 1d)_
+`
+
 After that, run `npm run start` to run the application.
 
 ## Database Schema

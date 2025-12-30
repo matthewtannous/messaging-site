@@ -9,7 +9,7 @@ import { FriendRepository } from "../domain/repositories/FriendRepository.js";
 import { UserRepository } from "../domain/repositories/UserRepository.js";
 import { UserService } from "../services/UserService.js";
 
-import { idParam, upsertMessage, upsertMessageContent, upsertUserId } from "../validators/MessageValidators.js";
+import { idParam, upsertMessage, upsertMessageContent, upsertUserId } from "../validators/messageValidators.js";
 
 /**
  * Dependency injection

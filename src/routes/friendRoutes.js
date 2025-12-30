@@ -4,7 +4,7 @@ import { FriendRepository } from "../domain/repositories/FriendRepository.js";
 import { FriendService } from "../services/FriendService.js";
 import { FriendController } from "../controllers/FriendController.js";
 
-import { idParam, updateFriend, insertFriend } from "../validators/FriendValidators.js";
+import { idParam, updateFriend, insertFriend } from "../validators/friendValidators.js";
 
 /**
  * Dependency injection

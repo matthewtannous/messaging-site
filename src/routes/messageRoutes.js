@@ -6,7 +6,7 @@ import { MessageController } from "../controllers/MessageController.js";
 
 import { FriendRepository } from "../domain/repositories/FriendRepository.js";
 
-import { idParam, upsertMessage, upsertMessageContent, upsertUserId } from "../validators/MessageValidators.js";
+import { idParam, upsertMessage, upsertMessageContent, upsertUserId } from "../validators/messageValidators.js";
 
 /**
  * Dependency injection
